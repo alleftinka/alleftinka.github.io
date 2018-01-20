@@ -1,0 +1,280 @@
+body {
+    background-color: #fff;
+    color: #585353;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+hr {
+    padding: 0;
+    margin: 0;
+    clear: both;
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 120px;
+    background-color: #f8f8f8;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.logo {
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 100px;
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.menu {
+    margin: 0;
+    padding:  0;
+    float: right;
+}
+
+.menu > li {
+    list-style-type: none;
+    width: 120px;
+    display: inline-block;
+    margin-top: 85px;
+}
+
+.menu > li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold 18px serif;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+.menu > li a:active {
+    color: darkgoldenrod;
+}
+
+.content {
+    margin: 0 15px;
+    min-height: 400px;
+}
+
+.main-text {
+    background: url(img/main_s.jpg) right bottom no-repeat,
+                url(img/main_bg_y.jpg) right top repeat-y;
+    background-color: #F4F4F4;
+    margin: 0 -15px 30px;
+    min-height: 300px;
+    padding: 30px 30px;
+}
+
+.main-text p {
+    width: 400px;
+}
+
+h2,
+a {
+    color: #6D6552;
+}
+
+h1 {
+    color: burlywood;
+}
+
+h3, .short input[type="button"] {
+    color: #4D4532;
+    background-color: #eaeaea;
+}
+
+.letter:first-letter {
+    font-size: 30px;
+    color: burlywood;
+    font-family: sans-serif;
+}
+
+.catalog-nav a {
+    display: inline-block;
+    margin-top: 20px;
+    width: 150px;
+}
+.product {
+    width: 255px;
+    float: left;
+    text-align: center;
+    margin: 18.720px 0;
+}
+
+a.btn {
+    display: block;
+    background-color: #f4f4f4;
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold 14px serif;
+    letter-spacing: 1px;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+a.btn:active {
+    box-shadow: inset 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    padding-top: 1px;
+}
+/*
+.short input[type="button"] {
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    font: bold 16px serif;
+    letter-spacing: 1px;
+}
+
+.short input[type="button"]:hover{
+    background-color: #DEB887;
+    border-color: #D3AE83;
+    color: #f8f8f8;
+}
+
+.short input[type="button"]:active{
+    background-color: #BCA778;
+    border-color: #BCA778;
+    color: #f8f8f8;
+}
+*/
+
+.short {
+    overflow: hidden;
+    padding: 0 0 10px 5px;
+}
+
+.properties {
+    clear: both;
+}
+
+fieldset {
+    width: 320px;
+    text-align: right;
+}
+
+label {
+    float: left;
+    font-weight: 600;
+    color: #6D6552;
+}
+
+textarea,
+input[placeholder] {
+    font: italic 14px sans-serif;
+    color: #707070;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+input[type="email"]:focus {
+    color: darkblue;
+    background-color: #C1E5FF;
+}
+
+input[placeholder] {
+    width: 260px;
+}
+
+textarea {
+    width: 320px;
+}
+
+input {
+    font: 600 14px sans-serif;
+    color: #6D6552;
+}
+
+.button {
+    text-align: center;
+}
+.button input {
+    background-color: #f4f4f4;
+    color: #585353;
+    letter-spacing: 1px;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    width: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+    line-height: 30px;
+    margin: 0 5px;
+}
+
+.button input:hover {
+    color: burlywood;
+}
+
+.button input:focus {
+    outline: none;
+}
+
+.button input:active {
+    box-shadow: inset 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    padding-top: 1px;
+}
+
+a img {
+    padding: 5px;
+    outline: 1px solid #c0c0c0;
+}
+
+a img:hover {
+    outline: 1px solid burlywood;
+}
+
+.properties table {
+    border-collapse: collapse;
+    border: 2px solid #c0c0c0;
+    width: 500px;
+}
+
+.properties td {
+    border: 1px solid #c0c0c0;
+    vertical-align: middle;
+	text-align: center;
+    width: 300px;
+}
+
+.properties td:first-child {
+    text-align: left;
+    padding-left: 10px;
+    font-weight: 600;
+    width: 200px;
+}
+
+.write {
+    float: left;
+    width: 380px;
+    margin-bottom: 20px;
+}
+.address {
+    float: right;
+    width: 380px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #6D6552;
+    color: #f8f8f8;
+    text-align: right;
+    padding-top: 60px;
+    padding-right: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
